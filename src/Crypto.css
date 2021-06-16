@@ -1,0 +1,61 @@
+.cryptoContainer{
+    display: flex;
+    justify-content: center;
+    
+}
+.cryptoRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    height:80px;
+    width:900px;
+    border-bottom: 1px solid black;
+}
+.crypto{
+    display: flex;
+    align-items: center;
+    padding-right: 24px;
+    min-width: 300px;
+}
+.crypto h1{
+    font-size: 16px;
+    width:150px;
+    display: flex;
+    justify-content: start;
+}
+.crypto img{
+    height: 10%;
+    width: 10%;
+    margin-right: 2%;
+}
+.symbol{
+    text-transform: uppercase;
+}
+.data{
+    display: flex;
+    text-align: center;
+    /* justify-content:space-between; */
+    width: 100%;
+}
+.price{
+    width: 30%;
+    text-align: left;
+}
+.volumn{
+    width: 30%;
+    text-align: center;
+}
+.coinPercent{
+    width: 10%;
+    text-align: right;
+}
+.supply{
+    width: 30%;
+}
+.red{
+    color: #f00606;
+}
+.green{
+    color: #11d811;
+}
