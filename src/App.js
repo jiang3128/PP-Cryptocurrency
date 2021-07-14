@@ -1,3 +1,8 @@
+/**
+ * CryptoApp by Nathaniel & Jiang
+ *
+ * @version 0.1
+ */
 import React, { useState, useEffect } from "react";
 import {
   CssBaseline,
